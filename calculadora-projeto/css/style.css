@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(128, 118, 118);
+}
+
+.calculadora {
+    width: 333px;
+    height: 400px;
+    background-color: rgb(30, 5, 70);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 8px 6px black;
+}
+
+.tela input {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    background-color: #82e482;
+    color: black;
+    text-align: right;
+    font-size: 40px;
+}
+
+.botoes input {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: rgb(163, 163, 199);
+    color: rgb(124, 5, 5);
+    outline: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input:nth-child(4), input:nth-child(8), input:nth-child(12), input:nth-child(16) {
+    background-color: rgba(226, 195, 18, 0.911);
+}
+
+input:active {
+    font-size: 29px;
+}

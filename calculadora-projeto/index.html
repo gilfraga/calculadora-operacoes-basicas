@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do Gil</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div class="calculadora">
+        <div class="tela">
+            <input type="text" name="" id="tela">
+        </div>
+        <div class="botoes">
+            <input type="submit" value="7" onclick="unir(7)">
+            <input type="submit" value="8" onclick="unir(8)">
+            <input type="submit" value="9" onclick="unir(9)">
+            <input type="submit" value="&#247" onclick="unir('/')">
+            <input type="submit" value="4" onclick="unir(4)">
+            <input type="submit" value="5" onclick="unir(5)">
+            <input type="submit" value="6" onclick="unir(6)">
+            <input type="submit" value="&#215" onclick="unir('*')">
+            <input type="submit" value="1" onclick="unir(1)">
+            <input type="submit" value="2" onclick="unir(2)">
+            <input type="submit" value="3" onclick="unir(3)">
+            <input type="submit" value="-" onclick="unir('-')">
+            <input type="submit" value="0" onclick="unir(0)">
+            <input type="submit" value="C" onclick="limpar()">
+            <input type="submit" value="=" onclick="calcular()">
+            <input type="submit" value="+" onclick="unir('+')"> 
+        </div>
+    </div>
+</body>
+</html>
